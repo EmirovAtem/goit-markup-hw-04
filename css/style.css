@@ -141,6 +141,14 @@ h3 {
 .contact-nav a:focus {
   color: var(--accent-color);
 }
+.envelope::before {
+  content: "";
+        display: block;
+        align-items: center;
+        height: 16px;
+            background-repeat: no-repeat; 
+              background-image: url(../images/vector2.svg);
+}
 
 /* HERO */
 
@@ -157,7 +165,7 @@ h3 {
   margin-right: auto;
   background-color: var(--hero-background-color);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), 
-  rgba(47, 48, 58, 0.4)), url(../images/Img.jpg);
+  rgba(47, 48, 58, 0.4)), url(../images/Img.jpg);  
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat
@@ -186,6 +194,7 @@ h3 {
   color: var(--whight-color);
   border: none;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: var(--accent-color);
 
   padding: 10px 32px;  
@@ -231,6 +240,29 @@ h3 {
   width: 270px;
   margin-right: 30px;
 }
+.list::before {
+  content: "";
+  height: 120px;
+      display: block;
+      background-size: 70px  
+      70px;
+      background-repeat: no-repeat; 
+      background-position: center;
+  
+  background-color: var(--team-section-background);
+}
+.icon-antenna::before {
+  background-image: url(../images/vector3.svg);
+  }
+ .icon-clock::before {
+  background-image: url(../images/vector4.svg);
+   }
+ .icon-diagram::before {
+  background-image: url(../images/Vector5\ 1.svg);
+  }
+ .icon-astronaut::before {
+  background-image: url(../images/vector6.svg);
+   }
 
 /* ЧИМ МИ ЗАЙМАЄМОСЬ */
 .work {
