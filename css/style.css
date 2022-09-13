@@ -115,6 +115,11 @@ h3 {
 .site-nav a:focus {
   color: var(--accent-color);
 }
+.button-icon {
+  width: 16px;
+  height: 12px;
+  fill: red;
+}
 
 /* CONTACT NAV  */
 
