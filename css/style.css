@@ -141,14 +141,6 @@ h3 {
 .contact-nav a:focus {
   color: var(--accent-color);
 }
-.envelope::before {
-  content: "";
-        display: block;
-        align-items: center;
-        height: 16px;
-            background-repeat: no-repeat; 
-              background-image: url(../images/vector2.svg);
-}
 
 /* HERO */
 
