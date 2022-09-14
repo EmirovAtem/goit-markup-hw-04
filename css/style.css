@@ -120,6 +120,18 @@ h3 {
   height: 12px;
   fill: red;
 }
+.item-link {
+ 
+  display: inline-flex;
+  align-items: center;
+  color: currentColor;
+  text-decoration: none;
+  font-size: 32px;
+}
+.item-contact {
+  background-size: contain;
+ 
+}
 
 /* CONTACT NAV  */
 
