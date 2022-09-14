@@ -141,6 +141,9 @@ h3 {
 .contact-nav a:focus {
   color: var(--accent-color);
 }
+.item-link {
+  background-color: #2196f3;
+}
 
 /* HERO */
 
