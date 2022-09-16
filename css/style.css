@@ -380,19 +380,16 @@ h3 {
 }
 .link-icon {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  width: 44px;
+  align-items: center; 
+  border-radius: 50%;  
 }
 .link-icon:hover {
   background-color: var(--accent-color);
 }
 .svg-icon {
-  display: flex;
   width: 44px;
   height: 44px;
-  padding-left: 12px;
+  padding: 12px;
 
   fill: var(--icon-social-card);
 }
@@ -407,15 +404,16 @@ h3 {
   list-style: none;
 }
 .client-list {
-  width: 170px;
-  height: 92px;
-  border-radius: 4px;
+   border-radius: 4px;
   outline: 1px solid #afb1b8;
   margin-right: 30px;
 }
 .svgk-icon {
-  fill: var(--icon-social-card);
+  width: 170px;
   height: 92px;
+  padding: 16px 32px;
+    fill: var(--icon-social-card);
+  
 }
 .svgk-icon:hover {
   fill: var(--button-secondary-color);
@@ -423,6 +421,7 @@ h3 {
 .client-link {
   display: flex;
   align-items: center;
+    
 }
 .client-title .client-list:last-child {
   margin-right: 0;
