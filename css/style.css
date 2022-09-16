@@ -408,31 +408,30 @@ fill: var(--whight-color);
   list-style: none;
 }
 .client-list {
-   border-radius: 4px;
-  outline: 1px solid #afb1b8;
+   
+
   margin-right: 30px;
 }
 .svgk-icon {
   width: 170px;
   height: 92px;
   padding: 16px 32px;
-    fill: var(--icon-social-card);
-  
-}
-.svgk-icon:hover {
-  fill: var(--button-secondary-color);
-}
-.svgk-icon:focus {
-  fill: var(--button-secondary-color);
+    fill: var(--icon-social-card);  
 }
 .client-link {
   display: flex;
   align-items: center;
-    
+  outline: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 .client-title .client-list:last-child {
   margin-right: 0;
 }
+.client-link:hover .svgk-icon, .client-link:focus .svgk-icon {
+    fill: var(--button-secondary-color);
+  outline: 1px solid var(--button-secondary-color);
+}
+
 
 /* PORTFOLIO */
 /* portfolio BUTTONS */
