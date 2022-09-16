@@ -160,7 +160,7 @@ h3 {
   margin-right: 10px;
 }
 .icon-phone:hover,
-.icon-phone:hover {
+.icon-phone:focus {
   fill: var(--accent-color);
 }
 
@@ -383,6 +383,9 @@ h3 {
   align-items: center; 
   border-radius: 50%;  
 }
+.link-icon :hover, .link-icon:focus .svg-icon {
+fill: var(--whight-color);
+}
 .link-icon:hover, .link-icon:focus {
   background-color: var(--accent-color);
 }
@@ -394,9 +397,9 @@ h3 {
 
   fill: var(--icon-social-card);
 }
-.svg-icon:hover, .svg-icon:focus {
+/* .svg-icon:hover, .svg-icon:focus {
   fill: var(--whight-color);
-}
+} */
 
 /* ICONS ПОСТІЙНІ КЛІЕНТИ */
 .client-title {
@@ -420,7 +423,7 @@ h3 {
   fill: var(--button-secondary-color);
 }
 .svgk-icon:focus {
-  color: var(--button-secondary-color);
+  fill: var(--button-secondary-color);
 }
 .client-link {
   display: flex;
