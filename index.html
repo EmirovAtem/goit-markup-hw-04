@@ -41,9 +41,10 @@
       <!-- CONTACT NAV -->
       <ul class="contact-nav">
         <li class="item-contact">
-          <a href="mailto:info@devstudio.com">
-          <svg class="icon-mail">
-            <use href="./images/symbol-defs.svg#icon-envelope">
+          <a class="item-link" href="mailto:info@devstudio.com">
+          <svg class="icon-mail" width="16px"
+          height="12px">
+            <use href="./images/icomoon/symbol-defs.svg#icon-envelope">
             </use>
           </svg>
           info@devstudio.com</a>
@@ -51,21 +52,21 @@
 
         <li class="item-contact">
           <a class="item-link" href="tel:+380961111111">
-            <svg class="icom-phone">
-             <use href="./images/icomoon/symbol-defs.svg#icon-phone">
+            <svg class="icon-phone" width="10px"
+            height="16px">
+             <use class="phone" href="./images/icomoon/symbol-defs.svg#icon-phone">
              </use>
             </svg>          
-            +38 096 111 11 11</a>
+                      +38 096 111 11 11</a>
         </li>
       </ul>
 </div>
-<svg><use>xLink:href="./images"</use></svg>
     </header>
 
     <!--hero-->
     <main>
       <section class="hero">
-        <div class="bgc">
+       
         <h1 class="hero-title">
           Ефективні рішення для<br/>
           вашого бізнесу
@@ -73,22 +74,34 @@
         <button type="button" class="hero-button pointer">
           Замовити послугу
         </button>
-        </div>
+       
       </section>
 
       <!-- <h2>НАШІ ПЕРЕВАГИ</h2> -->      
       <section class="section">
         <div class="container direction">
         <ul class="feature-list">
-          <li class="list">
+          <li class="list"> 
+           
+                <svg class="feature-icon">
+                <use class="feature-antena" href="./images/icomoon/symbol-defs.svg#icon-antenna" width="70px" hight="70px">
+
+                </use>
+              </svg>
+            
             <h3 class="title-list">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="text-list">
               Ідейні міркування, навіть початок повсякденної роботи з формування
               позиції.
-            </p>
+             </p>
           </li>
 
           <li class="list">
+            <svg class="feature-icon">
+              <use href="./images/icomoon/symbol-defs.svg#icon-clock"width="70px" hight="70px">
+
+              </use>
+            </svg>
             <h3 class="title-list">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="text-list">
               Завдання організації, особливо рамки місце навчання кадрів тягне у
@@ -96,6 +109,10 @@
             </p>
           </li>
           <li class="list">
+            <svg class="feature-icon">
+              <use href="./images/icomoon/symbol-defs.svg#icon-diagram"width="70px" hight="70px">
+
+              </use>
             <h3 class="title-list">ПЛАНУВАННЯ</h3>
             <p class="text-list">
               Так само консультація з широким активом значною мірою зумовлює.
@@ -103,6 +120,10 @@
           </li>
 
           <li class="list">
+            <svg class="feature-icon">
+              <use href="./images/icomoon/symbol-defs.svg#icon-astronaut"width="70px" hight="70px">
+
+              </use>
             <h3 class="title-list">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="text-list">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -159,10 +180,47 @@
               width="270"
               height="260"
             />
-            <div class="paragraph-inline">
+            <div class="paragraph-inline"> 
             <h3 class="comand-text">Ігор Дем'яненко</h3>
             <p class="comand-paragraph">Product Designer</p>
-            </div>
+            
+            <ul class="comand-icon">
+           <li class="list-icon"> 
+            <a class="link-icon" href="#">
+            <svg class="svg-icon">
+              <use class="instagram-icon" href="./images/icomoon/symbol-defs.svg#icon-instagram" width="20" hight="20">
+</use>           
+            </svg>
+            </a>
+          </li>
+          <li class="list-icon"> 
+            <a class="link-icon" href="#">
+            <svg class="svg-icon">
+              <use class="" href="./images/icomoon/symbol-defs.svg#icon-twitter" width="20" hight="20">
+</use>           
+            </svg>
+            </a>
+            </li>
+            <li class="list-icon"> 
+              <a class="link-icon" href="#">
+            <svg class="svg-icon">
+              <use href="./images/icomoon/symbol-defs.svg#icon-facebook" width="20" hight="20">
+</use>           
+            </svg>
+              </a>
+            </li>
+            <li class="list-icon"> 
+              <a class="link-icon" href="#">
+            <svg class="svg-icon">
+              <use href="./images/icomoon/symbol-defs.svg#icon-link" width="20" hight="20">
+</use>      
+</a>     
+            </svg>            
+            </li>            
+            </ul>
+          
+            
+          </div>
           </li>
           <li class="comand-item">
             <img class="comand-img"
@@ -174,6 +232,40 @@
             <div class="paragraph-inline">
             <h3 class="comand-text">Ольга Рєпіна</h3>
             <p class="comand-paragraph">Frontend Developer</p>
+            <ul class="comand-icon">
+              <li class="list-icon"> 
+               <a class="link-icon" href="#">
+               <svg class="svg-icon">
+                 <use href="./images/icomoon/symbol-defs.svg#icon-instagram" width="20" hight="20">
+   </use>           
+               </svg>
+               </a>
+             </li>
+             <li class="list-icon"> 
+               <a class="link-icon" href="#">
+               <svg class="svg-icon">
+                 <use href="./images/icomoon/symbol-defs.svg#icon-twitter" width="20" hight="20">
+   </use>           
+               </svg>
+               </a>
+               </li>
+               <li class="list-icon"> 
+                 <a class="link-icon" href="#">
+               <svg class="svg-icon">
+                 <use href="./images/icomoon/symbol-defs.svg#icon-facebook" width="20" hight="20">
+   </use>           
+               </svg>
+                 </a>
+               </li>
+               <li class="list-icon"> 
+                 <a class="link-icon" href="#">
+               <svg class="svg-icon">
+                 <use href="./images/icomoon/symbol-defs.svg#icon-link" width="20" hight="20">
+   </use>      
+   </a>     
+               </svg>            
+               </li>            
+               </ul>
           </div>
           </li>
           <li class="comand-item">
@@ -186,7 +278,41 @@
             <div class="paragraph-inline">
             <h3 class="comand-text">Микола Тарасов</h3>
             <p class="comand-paragraph">UI Designer</p>
-            </div>
+            <ul class="comand-icon">
+              <li class="list-icon"> 
+               <a class="link-icon" href="#">
+               <svg class="svg-icon">
+                 <use href="./images/icomoon/symbol-defs.svg#icon-instagram" width="20" hight="20">
+   </use>           
+               </svg>
+               </a>
+             </li>
+             <li class="list-icon"> 
+               <a class="link-icon" href="#">
+               <svg class="svg-icon">
+                 <use href="./images/icomoon/symbol-defs.svg#icon-twitter" width="20" hight="20">
+   </use>           
+               </svg>
+               </a>
+               </li>
+               <li class="list-icon"> 
+                 <a class="link-icon" href="#">
+               <svg class="svg-icon">
+                 <use href="./images/icomoon/symbol-defs.svg#icon-facebook" width="20" hight="20">
+   </use>           
+               </svg>
+                 </a>
+               </li>
+               <li class="list-icon"> 
+                 <a class="link-icon" href="#">
+               <svg class="svg-icon">
+                 <use href="./images/icomoon/symbol-defs.svg#icon-link" width="20" hight="20">
+   </use>      
+   </a>     
+               </svg>            
+               </li>            
+               </ul>
+          </div>
           </li>
           <li class="comand-item">
             <img class="comand-img"
@@ -198,16 +324,114 @@
             <div class="paragraph-inline">
             <h3 class="comand-text">Михайло Єрмаков</h3>
             <p class="comand-paragraph">UI Designer</p>
-            </div>
+            <ul class="comand-icon">
+              <li class="list-icon"> 
+               <a class="link-icon" href="#">
+               <svg class="svg-icon">
+                 <use href="./images/icomoon/symbol-defs.svg#icon-instagram" width="20" hight="20">
+   </use>           
+               </svg>
+               </a>
+             </li>
+             <li class="list-icon"> 
+               <a class="link-icon" href="#">
+               <svg class="svg-icon">
+                 <use href="./images/icomoon/symbol-defs.svg#icon-twitter" width="20" hight="20">
+   </use>           
+               </svg>
+               </a>
+               </li>
+               <li class="list-icon"> 
+                 <a class="link-icon" href="#">
+               <svg class="svg-icon">
+                 <use href="./images/icomoon/symbol-defs.svg#icon-facebook" width="20" hight="20">
+   </use>           
+               </svg>
+                 </a>
+               </li>
+               <li class="list-icon"> 
+                 <a class="link-icon" href="#">
+               <svg class="svg-icon">
+                 <use href="./images/icomoon/symbol-defs.svg#icon-link" width="20" hight="20">
+   </use>      
+   </a>     
+               </svg>            
+               </li>            
+               </ul>
+          </div>
           </li>
         </ul>
         </div>
       </section>
-    </main>
+   
 
+<!-- ПОСТІЙНІ КЛІЄНТИ -->
+
+      <section class="section">
+<div class="container">
+  <h2 class="comand-title">Постійні клієнти</h2>
+<ul class="client-title">
+  <li class="client-list">
+    <a class="client-link" href="#">
+      <svg class="svgk-icon">
+        <use class="client-icon" href="./images/icomoon/symbol-defs.svg#icon-Client-1">
+
+        </use>
+      </svg>
+    </a>
+  </li>
+  <li class="client-list">
+    <a class="client-link" href="#">
+      <svg class="svgk-icon">
+        <use class="client-icon" href="./images/icomoon/symbol-defs.svg#icon-Client-2">
+
+        </use>
+      </svg>
+    </a>
+  </li>
+  <li class="client-list">
+    <a class="client-link" href="#">
+      <svg class="svgk-icon">
+        <use class="client-icon" href="./images/icomoon/symbol-defs.svg#icon-Client-3">
+
+        </use>
+      </svg>
+    </a>
+  </li>
+  <li class="client-list">
+    <a class="client-link" href="#">
+      <svg class="svgk-icon">
+        <use class="client-icon" href="./images/icomoon/symbol-defs.svg#icon-Client-4">
+
+        </use>
+      </svg>
+    </a>
+  </li>
+  <li class="client-list">
+    <a class="client-link" href="#">
+      <svg class="svgk-icon">
+        <use class="client-icon" href="./images/icomoon/symbol-defs.svg#icon-Client-5">
+
+        </use>
+      </svg>
+    </a>
+  </li>
+  <li class="client-list">
+    <a class="client-link" href="#">
+      <svg class="svgk-icon">
+        <use class="client-icon" href="./images/icomoon/symbol-defs.svg#icon-Client-6">
+
+        </use>
+      </svg>
+    </a>
+ </ul>
+</div>
+</section>
+</main>
        <!-- Футер -->
-    <footer class="footer-section">      
-      <div class="container">
+    <footer class="footer-section">  
+      <div class="icon-section container">    
+   <div>
       <a href="./index.html" class="logo-footer"
         ><span class="color">Web</span>Studio</a
       >
@@ -235,7 +459,50 @@
           </li>
         </ul>
       </address>
+   </div>
+        
+        
+        <!-- FOOTER SOCIAL ICON -->
+         <div class="footer-icon-section">
+          <h3 class="footer-text">приєднуйтесь</h3>
+          <ul class="footer-icon-title">
+            <li class="list-icon"> 
+             <a class="link-icon" href="#">
+             <svg class="svg-icon">
+               <use href="./images/icomoon/symbol-defs.svg#icon-instagram" width="20" hight="20">
+        </use>           
+             </svg>
+             </a>
+           </li>
+           <li class="list-icon"> 
+             <a class="link-icon" href="#">
+             <svg class="svg-icon">
+               <use href="./images/icomoon/symbol-defs.svg#icon-twitter" width="20" hight="20">
+       </use>           
+             </svg>
+             </a>
+             </li>
+             <li class="list-icon"> 
+               <a class="link-icon" href="#">
+             <svg class="svg-icon">
+               <use href="./images/icomoon/symbol-defs.svg#icon-facebook" width="20" hight="20">
+       </use>           
+             </svg>
+               </a>
+             </li>
+             <li class="list-icon"> 
+               <a class="link-icon" href="#">
+             <svg class="svg-icon">
+               <use href="./images/icomoon/symbol-defs.svg#icon-link" width="20" hight="20">
+           </use>      
+             </a>     
+             </svg>            
+             </li>            
+             </ul>
          </div>
-    </footer>
+        </div> 
+      </div>
+             </footer>
+  
   </body>
 </html>
