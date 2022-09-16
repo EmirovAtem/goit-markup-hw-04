@@ -268,10 +268,10 @@ h3 {
 .feature-icon {
   width: 270px;
   height: 120px;
-  background-color: var(--team-section-background);
+   background-color: var(--team-section-background);
+  
   margin-bottom: 30px;
   padding: 25px 100px;
-
 }
 .feature-list .list:last-child {
   margin-right: 0px;
@@ -383,9 +383,10 @@ h3 {
   align-items: center; 
   border-radius: 50%;  
 }
-.link-icon:hover {
+.link-icon:hover, .link-icon:focus {
   background-color: var(--accent-color);
 }
+
 .svg-icon {
   width: 44px;
   height: 44px;
@@ -393,7 +394,7 @@ h3 {
 
   fill: var(--icon-social-card);
 }
-.svg-icon:hover {
+.svg-icon:hover, .svg-icon:focus {
   fill: var(--whight-color);
 }
 
@@ -417,6 +418,9 @@ h3 {
 }
 .svgk-icon:hover {
   fill: var(--button-secondary-color);
+}
+.svgk-icon:focus {
+  color: var(--button-secondary-color);
 }
 .client-link {
   display: flex;
