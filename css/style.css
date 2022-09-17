@@ -427,11 +427,18 @@ fill: var(--whight-color);
 .client-title .client-list:last-child {
   margin-right: 0;
 }
-.client-link:hover .svgk-icon, .client-link:focus .svgk-icon {
-    fill: var(--button-secondary-color);
+.client-link:hover, .client-link:focus .svgk-icon {
+  fill: var(--button-secondary-color);
   outline: 1px solid var(--button-secondary-color);
+  border-radius: 4px;
 }
-
+.svgk-icon:hover {
+  outline: 1px solid var(--button-secondary-color);
+  border-radius: 4px;
+}
+.svgk-icon:hover {
+  fill: var(--button-secondary-color);
+}
 
 /* PORTFOLIO */
 /* portfolio BUTTONS */
