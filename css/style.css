@@ -20,10 +20,10 @@
   --portfolio-card-border: #eeeeee;
   --icon-social-card: #afb1b8;
 }
-* {
+ /* * {
   outline: 2px solid tomato;
-}
-ul,
+} */
+ul, 
 a {
   list-style: none;
   text-decoration: none;
@@ -270,7 +270,6 @@ h3 {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-  padding: 25px 100px; 
 }
 .feature-card {
     width: 70px; 
@@ -331,11 +330,13 @@ h3 {
 .comand-list {
   display: flex;
 }
-.comand-list .comand-item:first-child {
-  margin-left: 0;
+.comand-icon .list-icon:last-child {
+  margin-right: 0;
 }
 
+
 .comand-item {
+  background-color: var(--whight-color);
   margin-left: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -363,8 +364,11 @@ h3 {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 16px;
 }
-
+.comand-icon .list-icon:last-child {
+  margin-left: 0px;
+}
 /* ICONS НАША КОМАНДА */
 
 .comand-icon {
@@ -376,11 +380,16 @@ h3 {
   margin-right: 10px;
 }
 .link-icon {
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center; 
+  justify-content: center;
   border-radius: 50%;  
+  padding: 12px;
+  fill: var(--icon-social-card);
 }
-.link-icon :hover, .link-icon:focus .svg-icon {
+.link-icon:hover .svg-icon, .link-icon:focus .svg-icon{
 fill: var(--whight-color);
 }
 .link-icon:hover, .link-icon:focus {
@@ -388,20 +397,15 @@ fill: var(--whight-color);
 }
 
 .svg-icon {
-  width: 44px;
-  height: 44px;
-  padding: 12px;
-
-  fill: var(--icon-social-card);
+  width: 20px;
+  height: 20px;
 }
-/* .svg-icon:hover, .svg-icon:focus {
-  fill: var(--whight-color);
-} */
 
 /* ICONS ПОСТІЙНІ КЛІЕНТИ */
 .client-title {
   display: flex;
   justify-content: center;
+  align-items: center;
   list-style: none;
 }
 .client-list {
@@ -409,32 +413,30 @@ fill: var(--whight-color);
 
   margin-right: 30px;
 }
-.svgk-icon {
-  width: 170px;
-  height: 92px;
-  padding: 16px 32px;
-    fill: var(--icon-social-card);  
+.svgk-icon {  
+  width: 106px;
+  height: 60px;    
 }
 .client-link {
+  width: 170px;
+  height: 92px;
   display: flex;
   align-items: center;
+  justify-content: center;
   outline: 1px solid #afb1b8;
   border-radius: 4px;
+   fill: var(--icon-social-card);  
 }
+
 .client-title .client-list:last-child {
   margin-right: 0;
 }
-.client-link:hover, .client-link:focus .svgk-icon {
+.client-link:hover .svgk-icon, .client-link:focus .svgk-icon {
   fill: var(--button-secondary-color);
+  }
+.client-link:hover, .client-link:focus {
   outline: 1px solid var(--button-secondary-color);
   border-radius: 4px;
-}
-.svgk-icon:hover {
-  outline: 1px solid var(--button-secondary-color);
-  border-radius: 4px;
-}
-.svgk-icon:hover {
-  fill: var(--button-secondary-color);
 }
 
 /* PORTFOLIO */
@@ -496,10 +498,14 @@ fill: var(--whight-color);
   margin-bottom: 0;
   border: 1px solid var(--portfolio-card-border);
 }
-.flex-element:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+.flex-link {
+  display: block;
 }
+.flex-element:hover .flex-link, .flex-element:focus .flex-link{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+outline: none;
+}
+
 
 .img-element {
   display: block;
@@ -596,44 +602,38 @@ fill: var(--whight-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--whight-color);
+
+  margin-bottom: 20px;
 }
 
 .footer-icon-section {
-  width: 206px;
-  height: 80px;
-  margin-left: 70px;
-  margin-top: 15px;
-}
+    margin-left: 70px;
+     }
 
-.footer-icon-title {
-  display: flex;
-}
+
 .footer-icon-title .list-icon:last-child {
   margin-right: 0px;
 }
 
-.footer-list-icon {
-  margin-right: 10px;
-}
-.footer-link-icon {
-  border-radius: 50%;
-  width: 44px;
-}
-
-.footer-link-icon:hover {
-  background-color: var(--accent-color);
-}
-.footer-svg-icon {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  padding-left: 12px;
-
-  fill: var(--icon-social-card);
-}
-.footer-svg-icon:hover {
-  fill: var(--whight-color);
-}
 .icon-section {
   display: flex;
+  align-items: baseline;
 }
+.footer-icon-title {
+  display: flex;
+}
+.footer-link-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 1px solid #afb1b8;
+  border-radius: 50%; 
+  
+   fill: var(--whight-color);  
+  background: rgba(255, 255, 255, 0.1);}
+
+  .footer-link-icon:hover, .footer-link-icon:focus {
+    background-color: var(--accent-color);
+  }
