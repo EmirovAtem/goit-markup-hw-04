@@ -138,6 +138,9 @@ h3 {
   padding-bottom: 32px;
   display: block;
 }
+.item-contact {
+  margin: 0 auto;
+}
 .contact-nav a:hover,
 .contact-nav .item-link {
   display: flex;
@@ -147,27 +150,30 @@ h3 {
   fill: var(--primary-text-color);
   margin-right: 10px;
 }
-.icon-mail:hover,
-.icon-mail:focus {
-  fill: var(--accent-color);
-}
-.item-link:hover,
-.item-link:focus {
-  color: var(--accent-color);
-}
+
 .icon-phone {
   fill: var(--primary-text-color);
   margin-right: 10px;
 }
-.icon-phone:hover,
-.icon-phone:focus {
-  fill: var(--accent-color);
-}
 
-.item-contact {
-  margin: 0 auto;
-}
 
+  .icon-phone:hover {
+     fill: var(--button-secondary-color);
+    }
+    .icon-phone:focus {
+      fill: var(--button-secondary-color);
+     }
+.icon-mail:hover {
+    fill: var(--button-secondary-color);
+    }
+    .icon-mail:focus {
+      fill: var(--button-secondary-color);
+      }
+
+    .contact-nav a:hover,
+    .contact-nav a:focus {
+      color: var(--accent-color);
+          }
 /* HERO */
 
 .hero {
