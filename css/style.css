@@ -157,13 +157,11 @@ h3 {
 }
 
 
-  .icon-phone:hover {
+  .item-link:hover .icon-phone, .item-link:focus .icon-phone {
      fill: var(--button-secondary-color);
     }
-    .icon-phone:focus {
-      fill: var(--button-secondary-color);
-     }
-.icon-mail:hover {
+    
+.item-link:focus .icon-mail, .item-link:hover .icon-mail {
     fill: var(--button-secondary-color);
     }
     .icon-mail:focus {
@@ -501,9 +499,8 @@ fill: var(--whight-color);
 .flex-link {
   display: block;
 }
-.flex-element:hover .flex-link, .flex-element:focus .flex-link{
+.flex-link:hover .img-element, .flex-link  :focus .img-element{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-outline: none;
 }
 
 
