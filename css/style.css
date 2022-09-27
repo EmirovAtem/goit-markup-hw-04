@@ -20,9 +20,9 @@
   --portfolio-card-border: #eeeeee;
   --icon-social-card: #afb1b8;
 }
- /* * {
+ * {
   outline: 2px solid tomato;
-} */
+}
 ul, 
 a {
   list-style: none;
@@ -315,7 +315,7 @@ h3 {
   background-color: var(--team-section-background);
 }
 .comand-title {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -331,6 +331,9 @@ h3 {
 .comand-icon .list-icon:last-child {
   margin-right: 0;
 }
+.comand-list .comand-item:first-child {
+  margin-left: 0;
+}
 
 
 .comand-item {
@@ -345,6 +348,7 @@ h3 {
   display: block;
 }
 .comand-text {
+   font-weight: 700px;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
